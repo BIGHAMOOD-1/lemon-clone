@@ -42,7 +42,7 @@ export async function POST(req: Request) {
     // 检查 API Key
     if (!process.env.DEEPSEEK_API_KEY) {
       return new Response(
-        JSON.stringify({ error: 'DEEPSEEK_API_KEY 未配置，请在 .env.local 中设置' }),
+        JSON.stringify({ error: 'DEEPSEEK_API_KEY 未配置，请在环境变量中设置（本地开发使用 .env.local，Vercel 部署请在项目设置中添加环境变量）' }),
         {
           status: 500,
           headers: { 'Content-Type': 'application/json' },

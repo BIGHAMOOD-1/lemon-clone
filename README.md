@@ -29,6 +29,27 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## 环境变量配置
+
+### 本地开发
+
+在项目根目录创建 `.env.local` 文件：
+
+```
+DEEPSEEK_API_KEY=your_deepseek_api_key_here
+```
+
+### Vercel 部署
+
+1. 登录 [Vercel Dashboard](https://vercel.com/dashboard)
+2. 选择你的项目
+3. 进入 **Settings** > **Environment Variables**
+4. 添加环境变量：
+   - **Name**: `DEEPSEEK_API_KEY`
+   - **Value**: 你的 DeepSeek API Key
+   - **Environment**: 选择 Production、Preview、Development（或全部）
+5. 保存后重新部署项目
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
