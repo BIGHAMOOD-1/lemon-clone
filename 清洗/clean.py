@@ -12,8 +12,8 @@ from pathlib import Path
 # ==================== 配置区域 ====================
 # 在 VSCode 中直接运行时，修改这里的配置即可
 INPUT_FILE = "group_1031996505_20251230_231232.txt"  # 输入文件路径
-PERSON_NAME = "swern"  # 要提取的人物名称
-OUTPUT_FILE = "2.txt"  # 输出文件路径
+PERSON_NAME = "DjjD"  # 要提取的人物名称
+OUTPUT_FILE = "wjd.txt"  # 输出文件路径
 # ==================================================
 
 
