@@ -13,6 +13,7 @@ type Character = {
 const characters: Character[] = [
   { key: 'b',   name: 'b神', avatar: '/avatar.jpg' },
   { key: 'wjd', name: 'wjd', avatar: '/wjd-avatar.jpg' },
+ { key: 'dan', name: '蛋子', avatar: '/dan-avatar.jpg' },
 ];
 
 export default function Home() {
